@@ -1,0 +1,112 @@
+/** @format */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.main-nav {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-container {
+  border-bottom: 1px solid green;
+}
+
+
+/* BMI Calculator */
+.bmi-container {
+  width: 80%;
+  height: 350px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  background: #AED6F1;
+}
+
+.bmi-cmn {
+  display: flex;
+  margin-top: 15px;
+}
+
+.bmi-left-container {
+  width: 40%;
+  z-index: 999;
+  margin-left: 50px;
+}
+
+.bmi-right-container {
+    width: 60%;
+}
+
+.bmi-cmn input {
+  width: 200px;
+  height: 25px;
+  padding-left: 5px;
+  outline: none;
+  border: none;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  border-bottom: 2px solid grey;
+}
+
+.bmi-container-calc {
+    display: block;
+    margin-top: 30px;
+}
+.bmi-container-calc a {
+  text-decoration: none;
+  background: white;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  padding: 5.5px 10px;
+  border-radius: 5px;
+  color: black;
+}
+
+#result {
+    margin-top: 30px;
+    width: 100%;
+}
+
+/* Weather finder */
+.weather {
+  width: 80%;
+  height: 350px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  background: #FF928B;
+  margin-top: 30px;
+}
+
+.weather-left-container {
+  width: 60%;
+  margin-left: 20%;
+}
+
+.weather-left-container h1 {
+  margin-bottom: 40px;
+
+}
+
+.weather-left-container p {
+  margin-bottom: 8px;
+}
+
+.weather-right-container {
+  width: 60%;
+}

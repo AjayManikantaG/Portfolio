@@ -1,0 +1,65 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" href="./img/align_left_icon_128290.ico">
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/work.css" />
+    
+    
+    <title>Projects</title>
+  </head>
+  <body>
+    <nav class="main-nav">
+      <div class="nav-container">
+        <h1>Mini Projects</h1>
+      </div>
+    </nav>
+
+    <!-- BMI section -->
+    <section class="bmi-container">
+      <div class="bmi-left-container">
+          <img src="./img/bmi.png" alt="">
+      </div>
+      <div class="bmi-right-container">
+        <h1>BMI Calculator</h1>
+        <br />
+        <div class="bmi-container-weight bmi-cmn">
+          <p>Weight(in Kgs) &nbsp;: &nbsp;</p>
+          <input type="text" placeholder="Weight in Kgs" id="weight" />
+        </div>
+        <div class="bmi-container-height bmi-cmn">
+          <p>height(in inch) &nbsp;: &nbsp;</p>
+          <input type="text" placeholder="height in inches" id="height"/>
+        </div>
+        <div class="bmi-container-calc bmi-cmn">
+            <a href="#" onclick="bmicalc()">Calculate my BMI</a>
+            <p class="bmi-result" id="result">Please provide your weight and height</p>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Weather fetch api -->
+    <section class="weather">
+      <div class="weather-left-container">
+        <h1>Find My Weather</h1>
+        <p id="location"> &nbsp;</p>
+        <p id="temperature">34</p>
+        <p id="temperature-description">Its Cold here</p>
+      </div>
+      <div class="weather-right-container">
+        <canvas class="icon" width="228" height="228"></canvas>
+      </div>
+    </section>
+
+    <script src="./js/skycons.js"></script>
+    <script src="./js/work.js"></script>
+  </body>
+</html>
