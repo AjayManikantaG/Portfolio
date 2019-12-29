@@ -171,11 +171,19 @@ nav {
 .content-section img {
   width: 300px;
   height: 200px;
+  background-size: 100%; 
   border-radius: 5px;
+  transition: all 0.5s;
+}
+
+.content-section img:hover {
+  transform: scale(1.06);
+  width: 300px;
+  height: 200px;
 }
 
 .same-content {
-  width: 30%
+  width: 30%;
 }
 
 .same-content h1 {
